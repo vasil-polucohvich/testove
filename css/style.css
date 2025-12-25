@@ -152,6 +152,9 @@ ul {
     padding: 0;
 
 }
+.nav {
+  margin-bottom: 20px;
+}
 .menu-item-link {
     display: block;
     text-decoration: none;
@@ -476,6 +479,7 @@ fieldset {
 }
   
 }
+
 
 
 
