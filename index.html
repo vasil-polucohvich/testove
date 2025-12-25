@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="top-panel">
+        <button aria-label="Switch language to English" lang="en">Eng</button>
+        <button lang="az">Aze</button>
+        <button lang="ru">Рус</button>
+      </header>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">
+          <div class="logo-box">
+            <a href="./" class="logo">Logo</a>
+            <ul class="list-items">
+              <li class="list-item">Lorem ipsum dolor sit</li>
+              <li class="list-item">Lorem ipsum</li>
+            </ul>
+            <ul class="list-items">
+              <li class="list-item">Lorem ipsum dolor</li>
+              <li class="list-item">
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+              </li>
+            </ul>
+            <ul class="list-items">
+              <li class="list-item">Lorem ipsum dolor</li>
+              <li class="list-item">Lorem ipsum dolor sit</li>
+            </ul>
+          </div>
+
+          <nav class="nav" aria-label="Головна навігація">
+            <div class="mobile-menu">
+              <!-- <button class="button" id="button">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button> -->
+              <button
+                class="button"
+                id="button"
+                aria-label="Відкрити меню"
+                aria-expanded="false"
+                aria-controls="menu"
+              >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </button>
+              <div>Меню</div>
+            </div>
+            <ul class="menu" id="menu">
+              <li class="menu-item">
+                <a class="menu-item-link" href="#">Пункт меню</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#">Длинний пункт меню</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#">Очень длинний пункт меню</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#">Еще пункт меню</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#">П.Меню</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <main class="main">
+          <div class="block-form">
+            <div class="block-form-item">
+              <form action="#" class="form">
+                <label for="input1">
+                  <input
+                    type="text"
+                    class="input-text-100"
+                    id="input1"
+                    required
+                  />
+                </label>
+                <div class="input-block">
+                  <fieldset>
+                    <label for="input2">
+                      <input
+                        type="text"
+                        class="input-text"
+                        id="input2"
+                        required
+                      />
+                    </label>
+                    <label for="input3">
+                      <input
+                        type="text"
+                        class="input-text"
+                        id="input3"
+                        required
+                      />
+                    </label>
+                  </fieldset>
+
+                  <fieldset>
+                    <label for="input4">
+                      <input
+                        type="text"
+                        class="input-text"
+                        id="input4"
+                        required
+                      />
+                    </label>
+                    <label for="input5">
+                      <input
+                        type="text"
+                        class="input-text"
+                        id="input5"
+                        required
+                      />
+                    </label>
+                  </fieldset>
+
+                  <button type="submit" class="submit">submit</button>
+                </div>
+              </form>
+            </div>
+            <div class="block-form-item">
+              <div class="block-content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et
+                </p>
+                <p>
+                  <strong
+                    >Ut enim ad minim veniam, quis nostrud exercitation</strong
+                  >
+                </p>
+
+                <a href="#" class="more">more</a>
+              </div>
+            </div>
+          </div>
+          <section class="block-card">
+            <article class="card">
+              <div class="card-fon">#6</div>
+              <div class="card-text">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit,sed do
+                  eiusmod tempor
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-fon">#7</div>
+              <div class="card-text">
+                <h2>Lorem ipsum</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit,sed do
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-fon">#8</div>
+              <div class="card-text">
+                <h2>Lorem ipsum dolor</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit,sed do
+                  eiusmod tempor Lorem
+                </p>
+              </div>
+            </article>
+          </section>
+          <section class="block-foto">
+            <div class="grid-container">
+              <div class="grid-item">#9</div>
+              <div class="grid-item">#10</div>
+              <div class="grid-item">#11</div>
+              <div class="grid-item">#12</div>
+              <div class="grid-item hidden">#13</div>
+              <div class="grid-item hidden">#14</div>
+              <div class="grid-item hidden">#15</div>
+              <div class="grid-item hidden">#16</div>
+              <div class="grid-item hidden">#17</div>
+              <div class="grid-item hidden">#18</div>
+              <div class="grid-item hidden">#19</div>
+              <div class="grid-item hidden">#20</div>
+            </div>
+            <button type="button" class="show-hidden">more</button>
+          </section>
+          <section class="block-21">
+            <div class="item white">#21.1</div>
+            <div class="item white">#21.2</div>
+            <div class="item white">#21.3</div>
+
+            <div class="item gray">#21.4</div>
+            <div class="item gray">#21.5</div>
+            <div class="item gray">#21.6</div>
+
+            <div class="item gray">#21.7</div>
+            <div class="item gray">#21.8</div>
+            <div class="item gray">#21.9</div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
