@@ -435,6 +435,9 @@ fieldset {
     max-width:190px;
     width:calc(100% - 14px);
   }
+.input-block {
+  margin-bottom:20px;
+}
   .block-card {
     flex-direction: column;
     gap: 20px;
@@ -482,6 +485,7 @@ fieldset {
 }
   
 }
+
 
 
 
