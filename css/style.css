@@ -211,6 +211,7 @@ ul {
   padding-left: 14px;
   padding-right: 14px;
   background-color: #CCCCCC;
+  margin-bottom:20px;
 }
 .block-form-item {
   flex-basis: 300px;
@@ -524,3 +525,4 @@ fieldset {
   
 
 }
+
