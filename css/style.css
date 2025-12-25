@@ -471,7 +471,6 @@ fieldset {
   }
   .block-form-item {
     flex-basis: auto;
-    margin-bottom:20px;
   }
 }
 @media screen and (min-width: 481px){
@@ -483,6 +482,7 @@ fieldset {
 }
   
 }
+
 
 
 
