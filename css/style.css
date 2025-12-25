@@ -337,6 +337,10 @@ ul {
 @media screen and (max-width: 640px){
   .block-form {
     flex-direction: column;
+    row-gap: 20px;
+  }
+  .block-form-item {
+    flex-basis: 0px;
   }
   .block-card {
     column-gap: 5px;
@@ -435,9 +439,6 @@ fieldset {
     max-width:190px;
     width:calc(100% - 14px);
   }
-.input-block {
-  margin-bottom:20px;
-}
   .block-card {
     flex-direction: column;
     gap: 20px;
@@ -485,6 +486,7 @@ fieldset {
 }
   
 }
+
 
 
 
