@@ -367,6 +367,9 @@ ul {
     top: 2px;
     left: -5px;   
 }
+  .block-content {
+    background-color: #FAFAFA;
+  }
 .list-item::after {
   top: 4px;
   left: 0px;
@@ -456,6 +459,7 @@ fieldset {
     padding-right: 0;
     flex-basis: auto;
     padding-bottom: 0;
+    background: none;
     
   }
   .block-form-item {
@@ -472,5 +476,6 @@ fieldset {
 }
   
 }
+
 
 
