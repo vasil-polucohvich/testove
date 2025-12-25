@@ -72,6 +72,7 @@ fieldset {
 body {
   font-size: 16px;
   font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
 }
 .top-panel {
     background-color: #fff;
@@ -521,4 +522,5 @@ fieldset {
 }
   
   
+
 }
