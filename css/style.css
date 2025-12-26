@@ -400,8 +400,8 @@ ul {
   position: absolute;
   left: 8px;
   right: 8px;
-  height: 2px;
-  background: currentColor;
+  height: 3px;
+  background: #fff;
   transition: transform 0.3s ease, opacity 0.2s ease;
 }
 
@@ -524,4 +524,5 @@ ul {
     display: none;
   }
 }
+
 
