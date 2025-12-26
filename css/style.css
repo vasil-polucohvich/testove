@@ -350,6 +350,9 @@ ul {
   .logo-box {
     display: block;
   }
+  .menu-item-link {
+    margin-bottom: 2ppx;
+  }
   .logo {
     display: block;
     border-radius: 0;
@@ -525,6 +528,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
