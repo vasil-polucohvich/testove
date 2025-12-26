@@ -93,7 +93,7 @@ button {
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  border: 14px solid #e7e7e7;
+  border: 14px solid #E1E1E3;
 }
 ul {
   list-style: none;
@@ -524,5 +524,6 @@ ul {
     display: none;
   }
 }
+
 
 
