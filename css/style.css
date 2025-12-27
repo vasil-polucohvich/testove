@@ -201,7 +201,8 @@ ul {
   margin-right: 9px;
 }
 .submit {
-  padding: 5px 66px;
+  padding: 5px 2px;
+  min-width:170px;
   text-transform: uppercase;
   background-color: #006c86;
   color: #fff;
@@ -218,7 +219,8 @@ ul {
 }
 .more {
   text-decoration: none;
-  padding: 5px 66px;
+  padding: 5px 2px;
+  min-width:170px;
   text-transform: uppercase;
   background-color: #006c86;
   color: #fff;
@@ -535,6 +537,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
