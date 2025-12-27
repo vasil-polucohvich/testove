@@ -523,6 +523,9 @@ ul {
   .container {
     margin-bottom:0px;
   }
+  .header {
+    padding-top:50px;
+  }
 }
 @media screen and (min-width: 481px) {
   .mobile-menu {
@@ -532,6 +535,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
