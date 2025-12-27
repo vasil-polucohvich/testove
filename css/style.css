@@ -207,6 +207,8 @@ ul {
   background-color: #006c86;
   color: #fff;
   border-radius: 5px;
+  display: inline-block;
+  text-align: center;
 }
 .block-content {
   word-break: break-word;
@@ -537,6 +539,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
