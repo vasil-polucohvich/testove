@@ -346,7 +346,7 @@ ul {
     flex-basis: calc(100% / 2 - 20px);
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 481px) {
   .logo-box {
     display: block;
   }
@@ -354,10 +354,9 @@ ul {
     margin-bottom: 2px;
   }
   .logo {
-    display: block;
-    border-radius: 0;
-    margin-top: 0;
-    border: 0;
+    min-height:100px;
+    display:flex;
+    align-items:center;
     margin-bottom: 20px;
   }
   .list-items {
@@ -528,6 +527,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
