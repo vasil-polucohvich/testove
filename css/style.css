@@ -359,6 +359,7 @@ ul {
     align-items:center;
     margin-bottom: 20px;
     border-radius:0;
+    border:0;
   }
   .list-items {
     display: block;
@@ -531,6 +532,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
