@@ -519,6 +519,9 @@ ul {
   .block-form-item {
     flex-basis: auto;
   }
+  .container {
+    margin-bottom:30px;
+  }
 }
 @media screen and (min-width: 481px) {
   .mobile-menu {
@@ -528,6 +531,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
