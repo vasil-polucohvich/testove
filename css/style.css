@@ -220,6 +220,8 @@ ul {
   overflow-wrap: break-word;
 }
 .more {
+  display: inline-block;
+  text-align: center;
   text-decoration: none;
   padding: 5px 2px;
   min-width:170px;
@@ -539,6 +541,7 @@ ul {
     display: none;
   }
 }
+
 
 
 
